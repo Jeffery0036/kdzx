@@ -1,0 +1,41 @@
+.category {
+    height: 100%;
+}
+.category-tree {
+    width: 160px !important;
+    float: left;
+}
+#category-tree{
+    width: 100%;
+}
+.category-content {
+    height: 100%;
+    width:85%;
+    float: right;
+    overflow: auto;
+}
+.category-option button{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: 'Arial Normal','Arial';
+    font-weight: 400px;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(109, 212, 247);
+}
+.category-option button:hover{
+    background-color: #ffffff;
+    color: rgb(109, 212, 247);
+    border: 1px solid lightgray;
+}
+.category-option #addBtn{
+    width: 70px;
+    height: 33px;
+}
+.category-option #batchBtn{
+    width: 82px;
+    height: 34px;
+}
+i{
+    color: rgb(109, 212, 247);
+}

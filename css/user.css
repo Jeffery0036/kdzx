@@ -1,0 +1,54 @@
+.user{
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+/* 去除圆点 */
+.user #myTab li{
+    list-style: none;
+}
+/* 头部切换样式 */
+.nav-item a {
+    font-size: 16px;
+    text-decoration: none;
+}
+.list-group-item div{
+    display: inline-block;
+}
+#addUserBtn{
+    margin: 10px 0;
+}
+
+#addUserBtn,.btn-info-status{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: 'Arial Normal','Arial';
+    font-weight: 400px;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(109, 212, 247);
+}
+#addUserBtn:hover{
+    background-color: #ffffff;
+    color: rgb(109, 212, 247);
+    border: 1px solid lightgray;
+}
+.btn-info-status:hover{
+    background-color: #ffffff;
+    color: rgb(109, 212, 247);
+    border: 1px solid lightgray;
+}
+#addUserBtn,.btn-info-status{
+    width: 70px;
+    height: 33px;
+}
+.btn-danger-status{
+    width: 70px;
+    height: 33px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: 'Arial Normal','Arial';
+    font-weight: 400px;
+    font-size: 14px;
+    border: none;
+}

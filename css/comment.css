@@ -1,0 +1,29 @@
+/* 去除圆点 */
+.comment #myTab li{
+    list-style: none;
+}
+.nav-tabs li{
+    background-color: rgba(235, 235, 235, 1);
+}
+.nav-tabs li a:hover{
+    background-color: #fff;
+    color: rgba(109,212,247);
+}
+.passBtn{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: 'Arial Normal','Arial';
+    font-weight: 400px;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(109, 212, 247);
+}
+.passBtn:hover{
+    background-color: #ffffff;
+    color: rgb(109, 212, 247);
+    border: 1px solid lightgray;
+}
+.passBtn{
+    width: 70px;
+    height: 33px;
+}
